@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colour Picker</title>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Colour Picker Extension</title>
 </head>
 <body>
-    
+    <div class="container bg-white w-80 flex items-center">
+        <div class="px-0 py-9 bg-white justify-center ">
+            <button id="picker-btn" class="mr-2 border-none outline-none text-white cursor-pointer ">Pick Colour</button>
+            <button id="export-btn" class="">Export Colours</button>
+        </div>
+        <div>
+            <header>
+                <p>
+                    Picker Colours
+                </p>
+                <span id="clear-btn">Clear All</span>
+            </header>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
