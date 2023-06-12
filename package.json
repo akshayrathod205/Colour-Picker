@@ -1,0 +1,14 @@
+{
+  "name": "colour-picker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "popup.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshay Rathod",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
