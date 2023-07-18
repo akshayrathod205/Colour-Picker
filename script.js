@@ -1,7 +1,7 @@
-const pickerBtn = document.getElementById("pickerBtn");
-const clearBtn = document.getElementById("clearBtn");
+const pickerBtn = document.getElementById("picker-btn");
+const clearBtn = document.getElementById("clear-btn");
 const colourList = document.querySelector(".all-colours");
-const exportBtn = document.getElementById("exportBtn");
+const exportBtn = document.getElementById("export-btn");
 
 let pickedColours = JSON.parse(localStorage.getItem("colours-list")) || [];
 let currentPopup = null;
@@ -81,7 +81,7 @@ const showColours = () => {
       (colour) =>
         `
         <li class="color">
-            <span class="rect" style="background: ${colour}; border: 1px solid ${
+            <span class="rect" style="background: ${colour}; border: 1px solid; ${
           colour === "#ffffff" ? "#ccc" : colour
         }"></span>
             <span class="value hex" data-color="${colour}">${colour}</span>
